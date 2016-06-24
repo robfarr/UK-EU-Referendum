@@ -1,0 +1,29 @@
+{
+
+	"name": "BBC-EU-Referendum-Data-Scraper",
+	"description": "Scrapes the BBC's election data of the UK referendum results..",
+	"author": "Rob Farr",
+
+	"main": "server.js",
+	"version": "1.0.0",
+
+	"scripts": {
+		"start": "node server.js"
+	},
+
+	"dependencies": {
+		"request": "latest",
+		"cheerio": "latest",
+		"sqlite3": "latest"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/robfarr/UK-EU-Referendum/"
+	},
+
+	"bugs": {
+		"url": "https://github.com/robfarr/UK-EU-Referendum/issues/"
+	}
+
+}
